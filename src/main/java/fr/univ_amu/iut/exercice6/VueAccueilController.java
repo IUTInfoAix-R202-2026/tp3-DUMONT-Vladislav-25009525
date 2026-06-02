@@ -55,6 +55,7 @@ public class VueAccueilController {
       int total = listeSitesController.ajouterSiteDemo();
       enTeteController.mettreAJourCompteur(total);
     });
+    enTeteController.mettreAJourCompteur(0);
   }
 
   /** Exposé pour les tests : permet de récupérer le sous-contrôleur en-tête. */

@@ -62,9 +62,8 @@ public class ListeSitesController {
 
     conteneurCartes.getChildren().add(0, siteCarte);
 
-    conteneurCartes.getChildren().size();
-    
-    int total = 0;
+    int total = conteneurCartes.getChildren().size();
+    ;
     return total;
   }
 
